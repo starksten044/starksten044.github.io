@@ -1,0 +1,278 @@
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Montserrat|Open+Sans" rel="stylesheet">
+  <style>
+    body {
+
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+    }
+
+    .not-a {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 120%;
+    }
+
+    #nav-container {
+      height: 90px;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      z-index: 3;
+      opacity: 0.95;
+      background: white;
+    }
+
+
+    .nav-divider {
+      width: 35vw;
+      border-bottom: 1px solid black;
+      display: inline-b ck;
+    }
+
+    .nav-link {
+      width: 500px;
+      height: 90px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    #nav-container a {
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+      font-family: 'Montserrat', sans-serif;
+      color: #996633;
+    }
+
+    #nav-container a:hover {
+      color: black;
+    }
+
+    #nav-container img {
+      width: 90px;
+      height: 90px;
+    }
+
+    .divider {
+      width: 500px;
+      border-bottom: 1px solid #996633;
+      margin: auto;
+      margin-bottom: 25px;
+      margin-top: 25px;
+    }
+
+    #top {
+      display: flex;
+      flex-direction: column;
+      height: 500px;
+      font: 70px;
+      margin-bottom: 100px;
+    }
+
+    #topImage {
+      margin: auto;
+      margin-top: 90px;
+      width: 100vw;
+      height: 420px;
+      object-fit: cover;
+    }
+
+    #howItWorks {
+      display: flex;
+      flex-direction: column;
+      margin: 5%;
+      height: 300px;
+    }
+
+    #howToWords {
+      font: 1;
+      flex: 1;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    #howToImage {
+      flex: 1;
+      margin: auto;
+      width: 50vw;
+      height: 20vh;
+    }
+
+    #mottoDiv {
+      display: flex;
+      flex-direction: row;
+      width: 85vw;
+      margin: auto;
+      text-align: center;
+      background: #FAFAFA;
+    }
+
+    #motto {
+      flex: 1;
+      font-size: 130%;
+      text-align: center;
+      margin: 5%;
+      height: 100px;
+    }
+
+    a>img {
+      width: 3vw;
+      height: 3vh;
+    }
+
+    #mottoImage {
+      flex: 1;
+      width: 50vw;
+      height: 50vh;
+    }
+
+    #imagesDiv {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .bodyImages {
+      flex: 1;
+      margin: 3%;
+      width: 10vw;
+      height: 50vh;
+    }
+
+    #bodyDiv>div {
+      text-align: center;
+      font: 50px;
+      margin: 3%;
+    }
+
+    #this-motto {
+      font-family: 'Montserrat', sans-serif;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      border-top: 1px solid lightgray;
+      width: 100vw;
+      position: relative;
+      bottom: 0px;
+      height: 180px;
+      background-color: #cc9933;
+      color: white;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    #social-media img {
+      max-width: 50px;
+      max-height: 50px;
+      margin: 0px 10px;
+    }
+
+    #social-media {
+      font-family: 'Montserrat', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 95px;
+    }
+
+    #copyright {
+      font-size: 11px;
+    }
+
+    #support {
+      height: 120px;
+    }
+
+    #support-text {
+      margin-bottom: 10px;
+    }
+
+    #support p {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    #motto-thing {
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav id="nav-container">
+    <div id="upper-nav">
+    </div>
+    <div class="nav-link ">
+      <a href="./store.html"> SHOP </a>
+      <a href="./aboutus.html"> ABOUT </a>
+      <a href="index.html"><img src="assets/logo.png" alt="Paris"></a>
+      <a href="./communities.html"> COMMUNITY </a>
+      <a href="./contactus.html"> CONTACT </a>
+    </div>
+  </nav>
+  <div id="top">
+    <img id="topImage" src="./assets/top.jpg" width="500" height="400" alt="">
+  </div>
+  <div id="mottoDiv">
+    <div id="motto">
+      <div id="this-motto">OUR MOTTO </div>
+      <span id="motto-thing"> Promoting indigenous crafts and transcending traditional design into contemporary outputs </span>
+    </div>
+    <img id="mottoImage" src="./assets/motto.jpg" alt="">
+  </div>
+  <div class="divider"></div>
+  <div id="bodyDiv">
+    <div>
+      <strong> <b>
+        NO PITY SELL. THIS IS AN ENTERPRISE.
+        </b>
+      </strong>
+    </div>
+    <div>
+      Himali is an Iloilo based social enterprise aiming to promote indigenous crafts and local fabric.
+    </div>
+    <div id="imagesDiv">
+      <div class="bodyImages">
+        <img width="300" height="300" src="./assets/1.jpg" alt=""> <br/>Product Development and Design</div>
+      <div class="bodyImages">
+        <img width="300" height="300" src="./assets/3.jpg" alt=""><br/> Community Development Trainings </div>
+      <div class="bodyImages">
+        <img width="300" height="300" src="./assets/2.jpg" alt=""><br/> E-Commerce platform</div>
+    </div>
+  </div>
+  </div>
+  <footer>
+    <div id="support">
+      <p id="support-text"> SUPPORT </p>
+      <p> Shipping & Returns </p>
+      <p> Size Guide </p>
+      <p> Limited Warranty Policy </p>
+      <p> Product Care </p>
+      <p> Privacy Policy </p>
+    </div>
+    <div>
+      <p> SOCIAL </p>
+      <div id="social-media">
+        <img src="assets/20227085_1417915981590688_836735496_n.png" />
+        <img src="assets/20227424_1417915978257355_837776655_n.png" />
+        <img src="assets/20270240_1417915974924022_830116146_n.png" />
+      </div>
+    </div>
+    <div>
+      <span> Want to hear more from us? Subscribe to our newsletter! </span><br>
+      <span id="copyright"> Humali 2017 © </span>
+    </div>
+  </footer>
+</body>
+
+</html>

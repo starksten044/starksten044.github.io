@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#nav-container-2{
+  flex: 1;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  top: 130px;
+}
+
+#nav-container {
+  height: 100px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  z-index: 3;
+  opacity: 0.95;
+  background: white;
+}
+
+.nav-divider {
+  width: 35vw;
+  border-bottom: 1px solid black;
+  display: inline-b
+  ck;
+}
+
+.nav-link {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+}  
+
+#upper-nav {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#nav-container a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #996633;
+}
+
+#nav-container a:hover {
+  color: black;
+}
+
+#nav-container img {
+    width: 70px;
+    height: 70px;
+}
+
+.fields {
+  height: 7vh;
+  width: 35vw;
+  font-size: 5vh;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 20px;
+  border-top-color: #996633;
+  border-color: #996633;
+}
+
+#login-button {
+  height: 7vh;
+  width: 20vw;
+  border-radius: 3vw;
+  font-size: 150%;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  background-color: #996633;
+}
+
+#button {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#header {
+  height: 15vh;
+  text-align: center;
+  background-color: #996633;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2vw;
+}
+
+#create-account {
+  color: black;
+  text-decoration: none;
+  font-size: 2vh;
+}
+
+#link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#username {
+  margin-top: 3vh;
+}
+
+#nav-container>p {
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 8vh;
+  text-shadow: 5px 5px 8px #996633;
+}
+
+h2 {
+  font-size: 3vh;
+}
+
+#nav-container {
+  flex: 1;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fields {
+  height: 7vh;
+  width: 35vw;
+  font-size: 5vh;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 20px;
+  border-top-color: #996633;
+  border-color: #996633;
+}
+
+#login-button {
+  height: 7vh;
+  width: 20vw;
+  border-radius: 3vw;
+  font-size: 150%;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  background-color: #996633;
+}
+
+#button {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#header {
+  height: 15vh;
+  text-align: center;
+  background-color: cadetblue;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2vw;
+}
+
+#create-account {
+  color: black;
+  text-decoration: none;
+  font-size: 2vh;
+}
+
+#link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#username {
+  margin-top: 3vh;
+}
+
+#nav-container>p {
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 8vh;
+  text-shadow: 5px 5px 8px cadetblue;
+}
+
+h2 {
+  font-size: 3vh;
+}

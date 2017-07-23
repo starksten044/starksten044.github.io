@@ -1,0 +1,281 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#nav-container {
+  height: 90px;
+  width: 100vw;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  position: fixed;
+  z-index: 3;
+  opacity: 0.95;
+  background: white;
+}
+
+
+.nav-divider {
+  width: 35vw;
+  border-bottom: 1px solid black;
+  display: inline-b
+  ck;
+}
+
+.nav-link {
+  width: 500px;
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}  
+
+#nav-container a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #996633;
+}
+
+#nav-container a:hover {
+  color: black;
+}
+
+#nav-container img {
+    width: 90px;
+    height: 90px;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100vw;
+  height: 500px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+  width: 100vw;
+  height: 500px;
+  object-fit: cover;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.divider {
+  width: 500px;
+  border-bottom: 1px solid #996633;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.header {
+  font-size: 150%;
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.container {
+  margin: auto;
+  margin-bottom: 30px;
+  width: 85vw;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container > div {
+  flex: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  border-top: 1px solid lightgray;
+  width: 100vw;
+  position: relative;
+  bottom: 0px;
+  height: 180px;
+  background-color: #cc9933;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.product-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-img-container img {
+  width: 250px;
+  height: auto;
+  cursor: pointer;
+  margin: 10px 40px;
+}
+
+.btn {
+  background: none;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 110%;
+  border: 1px solid #996633;
+  color: #996633;
+  cursor: pointer;
+  padding: 10px;
+  text-decoration: none;  
+}
+
+.btn:hover {
+  background-color: #996633;
+  color: white;
+}
+
+.btn-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vision,
+.mission {
+  font-size: 120%;
+}
+
+#lanit {
+  width: 520px;
+  height: 370px;
+  object-fit: cover;
+}
+
+#social-media img {
+  max-width: 50px;
+  max-height: 50px;
+  margin: 0px 10px;
+}
+
+#social-media {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95px;
+}
+
+#copyright {
+  font-size: 11px;
+}
+
+#support {
+  height: 120px;
+}
+
+#support-text {
+  margin-bottom: 10px;
+}
+
+#support p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.community-container {
+  position: relative;
+  top: 90px;
+  height: 30vh;
+}
+
+.some-container {
+  width: 80vw;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.first-banner {
+  margin-top: 90px;
+  width: 100%;
+  object-fit: cover;
+
+}
+
+.second-banner {
+  width: 100%;
+  object-fit: cover;
+
+}
+
+.some-img {
+  width: 450px;
+  height: 380px;
+  object-fit: cover;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  flex: 1;
+}
+
+#text-container {
+  flex: 1;
+}

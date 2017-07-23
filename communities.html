@@ -1,0 +1,244 @@
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Libre Baskerville', serif;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+    }
+
+    h3 {
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      margin-left: 20%;
+      margin-right: 20%;
+      position: relative;
+      top: 110px;
+    }
+
+    .communityContainer {
+      flex: 1;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .logo {
+      flex: 1;
+      margin: 2%;
+    }
+
+    .details {
+      flex: 1;
+      font-size: 12px;
+    }
+
+    .links {
+      flex: 1;
+      text-align: center;
+      font-size: 20px;
+      margin: 3%;
+      margin-top: 10%;
+    }
+
+    a {
+      text-decoration: none;
+      font-family: Helvetica;
+    }
+
+    .links a {
+      color: #996633;
+      border: 1px solid #996633;
+      padding: 8px;
+    }
+
+    .logoImg {
+      width: 20vw;
+      height: 20vh;
+      margin: auto;
+    }
+
+    #social-media img {
+      max-width: 50px;
+      max-height: 50px;
+      margin: 0px 10px;
+    }
+
+    #social-media {
+      font-family: 'Montserrat', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 95px;
+    }
+
+    #copyright {
+      font-size: 11px;
+    }
+
+    #support {
+      height: 120px;
+    }
+
+    #support-text {
+      margin-bottom: 10px;
+    }
+
+    #support p {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    footer {
+      margin-top: 150px;
+      border-top: 1px solid lightgray;
+      width: 100vw;
+      position: relative;
+      bottom: 0px;
+      height: 180px;
+      background-color: #cc9933;
+      color: white;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    #nav-container {
+      height: 90px;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      z-index: 3;
+      opacity: 0.95;
+      background: white;
+    }
+
+
+    .nav-divider {
+      width: 35vw;
+      border-bottom: 1px solid black;
+      display: inline-b ck;
+    }
+
+    .nav-link {
+      width: 500px;
+      height: 90px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    #nav-container a {
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+      font-family: 'Montserrat', sans-serif;
+      color: #996633;
+    }
+
+    #nav-container a:hover {
+      color: black;
+    }
+
+    #nav-container img {
+      width: 90px;
+      height: 90px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav id="nav-container">
+    <div id="upper-nav">
+    </div>
+    <div class="nav-link ">
+      <a href="./store.html"> SHOP </a>
+      <a href="./aboutus.html"> ABOUT </a>
+      <a href="index.html"><img src="assets/logo.png" alt="Paris"></a>
+      <a href="./communities.html"> COMMUNITY </a>
+      <a href="./contactus.html"> CONTACT </a>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="communityContainer">
+      <div class="logo">
+        <img class="logoImg" src="assets/himali.jpg" alt="">
+      </div>
+      <div class="details">
+        <div><h3> Himali </h3></div>
+        <div> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor"
+        </div>
+      </div>
+      <div class="links">
+        <a href="">Check us out</a>
+      </div>
+    </div>
+    <div class="communityContainer">
+      <div class="logo">
+        <img class="logoImg" src="assets/yakap duyan.jpg" alt="">
+      </div>
+      <div class="details">
+        <div><h3>Yakap Duyan</h3></div>
+        <div> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit "
+        </div>
+      </div>
+      <div class="links">
+        <a href="https://www.thesparkproject.com/project/Yakap-Duyan">Check us out</a>
+      </div>
+    </div>
+    <div class="communityContainer">
+      <div class="logo">
+        <img class="logoImg" src="assets/gugma weaves.jpg" alt="">
+      </div>
+      <div class="details">
+        <div><h3>Gugma Weaves</h3></div>
+        <div> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit "
+        </div>
+      </div>
+      <div class="links">
+        <a href="https://www.thesparkproject.com/project/Gugma-Weaves">Check us out</a>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div id="support">
+      <p id="support-text"> SUPPORT </p>
+      <p> Shipping & Returns </p>
+      <p> Size Guide </p>
+      <p> Limited Warranty Policy </p>
+      <p> Product Care </p>
+      <p> Privacy Policy </p>
+    </div>
+    <div>
+      <p> SOCIAL </p>
+      <div id="social-media">
+        <img src="assets/20227085_1417915981590688_836735496_n.png" />
+        <img src="assets/20227424_1417915978257355_837776655_n.png" />
+        <img src="assets/20270240_1417915974924022_830116146_n.png" />
+      </div>
+    </div>
+    <div>
+      <span> Want to hear more from us? Subscribe to our newsletter! </span><br>
+      <span id="copyright"> Humali 2017 © </span>
+    </div>
+  </footer>
+</body>
+
+</html>

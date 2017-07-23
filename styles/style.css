@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#nav-container {
+  flex: 1;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fields {
+  height: 7vh;
+  width: 35vw;
+  font-size: 5vh;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 20px;
+  border-top-color: cadetblue;
+  border-color: cadetblue;
+}
+
+#login-button {
+  height: 7vh;
+  width: 20vw;
+  border-radius: 3vw;
+  font-size: 150%;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  background-color: cadetblue;
+}
+
+#button {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#header {
+  height: 15vh;
+  text-align: center;
+  background-color: cadetblue;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2vw;
+}
+
+#create-account {
+  color: black;
+  text-decoration: none;
+  font-size: 2vh;
+}
+
+#link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#username {
+  margin-top: 3vh;
+}
+
+#nav-container>p {
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 8vh;
+  text-shadow: 5px 5px 8px cadetblue;
+}
+
+h2 {
+  font-size: 3vh;
+}
